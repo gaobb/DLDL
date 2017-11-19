@@ -17,7 +17,8 @@ You can train Deep ConvNets from Scratch or a pre-trained model on your datasets
 step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIpGy6U)　to ./SimModel
 
 step2: in matlab, run age-demo.m
-<img src="./images/age-demo.png" width="48">
+
+<img src="./images/age-demo.png" width="512">
 ### Head-Pose-Estimation
 step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIOSuSA) to ./SimModel
 
