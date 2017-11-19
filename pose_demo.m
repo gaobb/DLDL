@@ -10,18 +10,20 @@ clear vl_tmove vl_imreadjpeg ;
 opts.gpus = 12;
 gpuDevice(opts.gpus)
 net = dldl_simplenn_move(net, 'gpu');
-rgbMean = net.meta.normalization.averageImage;
-
+rgbmean = net.meta.normalization.averageImage;
+bopts = net.meta.normalization;
+bopts.transformation = 'none' ;
+bopts.averageImage = rgbmean ;
+bopts.rgbVariance = [] ;
+    
 %% load image
 img_name = '2-image06575_jpg_7788.jpg';
 img_path = fullfile('./data/aflw_images', img_name);
-imt = imread(img_path);
-im = imresize(imt, [224,224]);
+im = imread(img_path);
+imt = getPoseBatch(img_path, bopts, 'prefetch', 0) ;
 
-data = bsxfun(@minus, single(imresize(im, net.meta.normalization.imageSize(1:2))),...
-    reshape(net.meta.normalization.averageImage, [1,1,3]));
 %% forward 
-res = dldl_simplenn(net, gpuArray(data), [], [], ...
+res = dldl_simplenn(net, gpuArray(imt), [], [], ...
             'accumulate', 0, ...
             'mode', 'test', ...
             'conserveMemory', 1) ;
@@ -33,7 +35,7 @@ cordin = [reshape(cordin_yaw,[],1),reshape(cordin_pitch,[],1)];
 pre_pose = cordin(mu',:);
 %% visialization
 figure(1)
-imshow(imt)
+imshow(im)
 
 figure(2)
 ribbon(reshape(pred_score,61,61))
