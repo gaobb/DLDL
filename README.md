@@ -23,7 +23,7 @@ step2: in matlab, run age-demo.m
 ### Head Pose Estimation
 step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIOSuSA) into ./SimModel
 
-step2: in matlab, run age-demo.m
+step2: in matlab, run pose-demo.m
 
 <img src="./images/pose-demo.png" width="512">
 
