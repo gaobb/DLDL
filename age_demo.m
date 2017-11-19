@@ -4,7 +4,7 @@ addpath('./utils')
 run('./External/matconvnet-1.0-beta18/matlab/vl_setupnn.m');
 %% load pre-trained model
 % dldl_vggface_chalearn_1.mat is avlaible at 
-modelPath = './SimModel/dldl_vggface_chalearn_1.mat';
+modelPath = './DLDLModel/dldl_vggface_chalearn_1.mat';
 load(modelPath, 'net') ;
 
 clear vl_tmove vl_imreadjpeg ;

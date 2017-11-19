@@ -16,7 +16,7 @@ model.opts.nThreads=4;
 edge_model = model;
 
 % load PFDLDL model
-modelPath = sprintf('./SimModel/pfdldl_%s_%s_%s', 'vgg16','max','voc07');
+modelPath = sprintf('./DLDLModel/pfdldl_%s_%s_%s', 'vgg16','max','voc07');
 fprintf('load model from %s\n', modelPath);
 tic;
 load(modelPath, 'net', 'info');

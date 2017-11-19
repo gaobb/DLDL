@@ -3,7 +3,7 @@ addpath('./utils')
 run('./External/matconvnet-1.0-beta18/matlab/vl_setupnn.m');
 %% load pre-trained model
 % dldl_izfnet_aflw_1.mat can be downloaded at 
-modelPath = './SimModel/dldl_izfnet_aflw_1.mat';
+modelPath = './DLDLModel/dldl_izfnet_aflw_1.mat';
 load(modelPath, 'net') ;
 
 clear vl_tmove vl_imreadjpeg ;
