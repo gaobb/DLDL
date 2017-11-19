@@ -4,6 +4,9 @@ This repository is a MatConvNet re-implementation of ["Deep Label Distribution L
 
 You can train Deep ConvNets from Scratch or a pre-trained model on your datasets with limited samples and ambiguous labels. This repo is created by [Bin-Bin Gao](http://lamda.nju.edu.cn/gaobb).
 
+![Feature visualization](http://lamda.nju.edu.cn/gaobb/Projects/DLDL_files/DLDL_LD.png)
+
+
 ### Table of Contents
 0. [Age-Estimation](#Age-Estimation)
 0. [Head-Pose-Estimation](#Head-Pose-Estimation)
@@ -11,33 +14,24 @@ You can train Deep ConvNets from Scratch or a pre-trained model on your datasets
 0. [Semantic-Segmentation](#Semantic-Segmentation)
 
 ### Age-Estimation
-step1: download pre-trained model from https://pan.baidu.com/s/1jIpGy6U　to ./SimModel
+step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIpGy6U)　to ./SimModel
+step2: in matlab, run age-demo.m
+![result](./images/age-demo.png)
 
-step2: 
-```matlab
-age-demo
-```
 ### Head-Pose-Estimation
-step1: download pre-trained model from https://pan.baidu.com/s/1jIOSuSA ./SimModel
+step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIOSuSA) to ./SimModel
+step2: in matlab, run age-demo.m
+![result](./images/pose-demo.png)
 
-step2: 
-```matlab
-age-demo
-```
 ### Multi-Label-Classification
-step1: download pre-trained model https://pan.baidu.com/s/1kV69uxL ./SimModel
+step1: download pre-trained model from [here](https://pan.baidu.com/s/1kV69uxL) to ./SimModel
+step2: in matlab, run ml-demo.m
+![result](./images/ml-demo.png)
 
-step2: 
-```matlab
-ml-demo
-```
 ### Semantic-Segmentation
-step1: download pre-trained model https://pan.baidu.com/s/1pLUhK9P ./SimModel
-
-step2: 
-```matlab
-seg-demo
-```
+step1: download pre-trained model from [here](https://pan.baidu.com/s/1pLUhK9P) to ./SimModel
+step2: in matlab, run seg-demo.m
+![result](./images/seg-demo.png)
 
 ### Additional Information
 If you find DLDL helpful, please cite it as
@@ -52,9 +46,6 @@ If you find DLDL helpful, please cite it as
          pages={2825-2838}, 
          }
 ```
-
-![Feature visualization](http://lamda.nju.edu.cn/gaobb/projects/DLDL_files/DLDL_Rv1.png)
-
 
 ATTN1: This packages are free for academic usage. You can run them at your own risk. For other
 purposes, please contact Prof. Jianxin Wu (wujx2001@gmail.com).
