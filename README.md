@@ -14,28 +14,28 @@ You can train Deep ConvNets from Scratch or a pre-trained model on your datasets
 0. [Semantic-Segmentation](#Semantic-Segmentation)
 
 ### Age-Estimation
-step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIpGy6U)　to ./SimModel
+step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIpGy6U)　into ./SimModel
 
 step2: in matlab, run age-demo.m
 
 <img src="./images/age-demo.png" width="512">
 
 ### Head-Pose-Estimation
-step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIOSuSA) to ./SimModel
+step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIOSuSA) into ./SimModel
 
 step2: in matlab, run age-demo.m
 
 <img src="./images/pose-demo.png" width="512">
 
 ### Multi-Label-Classification
-step1: download pre-trained model from [here](https://pan.baidu.com/s/1kV69uxL) to ./SimModel
+step1: download pre-trained model from [here](https://pan.baidu.com/s/1kV69uxL) into ./SimModel
 
 step2: in matlab, run ml-demo.m
 
 <img src="./images/ml-demo.png" width="512">
 
 ### Semantic-Segmentation
-step1: download pre-trained model from [here](https://pan.baidu.com/s/1pLUhK9P) to ./SimModel
+step1: download pre-trained model from [here](https://pan.baidu.com/s/1pLUhK9P) into ./SimModel
 
 step2: in matlab, run seg-demo.m
 
