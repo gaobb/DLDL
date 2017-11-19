@@ -22,13 +22,13 @@ im = imresize(imt, [224,224]);
 
 data = bsxfun(@minus, single(imresize(im, net.meta.normalization.imageSize(1:2))),...
     reshape(net.meta.normalization.averageImage, [1,1,3]));
-
+data(:,:,:,2) = data(:,end:-1:1,:);
 %% forward 
 res = dldl_simplenn(net, gpuArray(data), [], [], ...
             'accumulate', 0, ...
             'mode', 'test', ...
             'conserveMemory', 1) ;
-pred_score = squeeze(gather(res(end).x));
+pred_score = squeeze(mean(gather(res(end).x),4));
 pred_age = (1:85)*pred_score;
 
 %% visialization
