@@ -14,7 +14,7 @@ You can train Deep ConvNets from Scratch or a pre-trained model on your datasets
 0. [Semantic Segmentation](#Semantic-Segmentation)
 
 ### Age Estimation
-step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIpGy6U)　into ./DLDLModel
+step1: download pre-trained model from [here](https://pan.baidu.com/s/1eSKWELO)　into ./DLDLModel
 
 step2: in matlab, run age-demo.m
 
