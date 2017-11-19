@@ -18,28 +18,28 @@ step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIpGy6U)ã
 
 step2: in matlab, run age-demo.m
 
-![result](./images/age-demo.png)
+![result](./images/age-demo.png | width=100)
 
 ### Head-Pose-Estimation
 step1: download pre-trained model from [here](https://pan.baidu.com/s/1jIOSuSA) to ./SimModel
 
 step2: in matlab, run age-demo.m
 
-![result](./images/pose-demo.png)
+![result](./images/pose-demo.png  | width=100)
 
 ### Multi-Label-Classification
 step1: download pre-trained model from [here](https://pan.baidu.com/s/1kV69uxL) to ./SimModel
 
 step2: in matlab, run ml-demo.m
 
-![result](./images/ml-demo.png)
+![result](./images/ml-demo.png  | width=100)
 
 ### Semantic-Segmentation
 step1: download pre-trained model from [here](https://pan.baidu.com/s/1pLUhK9P) to ./SimModel
 
 step2: in matlab, run seg-demo.m
 
-![result](./images/Seg-demo.png)
+![result](./images/Seg-demo.png  | width=100)
 
 ### Additional Information
 If you find DLDL helpful, please cite it as
