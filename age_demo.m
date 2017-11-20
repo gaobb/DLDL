@@ -16,7 +16,7 @@ rgbMean = net.meta.normalization.averageImage;
 
 %% load image
 img_name = 'image_525.jpg';
-img_path = fullfile('./data/chalearn15_images', img_name);
+img_path = fullfile('./data/chalearn', img_name);
 imt = imread(img_path);
 im = imresize(imt, [224,224]);
 

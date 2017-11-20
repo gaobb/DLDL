@@ -18,7 +18,7 @@ bopts.rgbVariance = [] ;
     
 %% load image
 img_name = '2-image06575_jpg_7788.jpg';
-img_path = fullfile('./data/aflw_images', img_name);
+img_path = fullfile('./data/aflw', img_name);
 im = imread(img_path);
 imt = getPoseBatch(img_path, bopts, 'prefetch', 0) ;
 
