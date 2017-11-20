@@ -13,3 +13,6 @@
 [submodule "External/export_fig"]
 	path = External/export_fig
 	url = git@github.com:altmany/export_fig.git
+[submodule "External/TCDCN"]
+	path = External/TCDCN
+	url = git@github.com:zhzhanp/TCDCN-face-alignment.git
