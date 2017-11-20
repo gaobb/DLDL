@@ -16,3 +16,6 @@
 [submodule "External/TCDCN"]
 	path = External/TCDCN
 	url = git@github.com:zhzhanp/TCDCN-face-alignment.git
+[submodule "External/edges"]
+	path = External/edges
+	url = git@github.com:pdollar/edges.git
