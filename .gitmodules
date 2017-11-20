@@ -1,0 +1,15 @@
+[submodule "Piotr-CV"]
+	path = Piotr-CV
+	url = git@github.com:pdollar/toolbox.git
+[submodule "TCDCN"]
+	path = TCDCN
+	url = git@github.com:zhzhanp/TCDCN-face-alignment.git
+[submodule "export_fig"]
+	path = export_fig
+	url = git@github.com:altmany/export_fig.git
+[submodule "External/Piotr-CV"]
+	path = External/Piotr-CV
+	url = git@github.com:pdollar/toolbox.git
+[submodule "External/export_fig"]
+	path = External/export_fig
+	url = git@github.com:altmany/export_fig.git
