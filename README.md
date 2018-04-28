@@ -20,6 +20,17 @@ step2: in matlab, run age-demo.m
 
 <img src="./images/age-demo.png" width="512">
 
+Pre-trained models:
+
+| Dataset | Model | MAE | epsilon-error
+| - | :- | :-:   |:-: |
+| ChaLearn15 | [DLDL](https://pan.baidu.com/s/1og9A2W2i_t6OcY85gpD4tQ)          | 5.34(exp)| 0.44  |
+| ChaLearn15 | [DLDL+VGG-Face](https://pan.baidu.com/s/110z8uf5w7AKuQtQIzgLX7w) | 3.51(exp)| 0.31  |
+| Morph | [DLDL](https://pan.baidu.com/s/1ykulLz-5YBja_omKTifl7w)               | 2.51±0.03 (max)| -|
+| Morph | [DLDL+VGG-Face](https://pan.baidu.com/s/1_RFrfg7dxkvqIN8HxGWGjg)      | 2.42±0.01 (max)| -|
+
+
+
 ### Head Pose Estimation
 step1: download [pre-trained model](https://pan.baidu.com/s/1jIOSuSA) to ./DLDLModel
 
