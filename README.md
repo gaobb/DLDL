@@ -55,12 +55,36 @@ step2: in matlab, run ml-demo.m
 
 <img src="./images/ml-demo.png" width="512">
 
+SINGLE MODEL CLASSIFICATION MAP (IN%)ON VOC2007
+
+|Traing Style| Net-D+Max| Net-D+Avg| Net-E+Max| Net-E+Avg|
+| :-: | :-: |:-:|:-:|:-:|
+|IF-DLDL| 90.1 [model](https://pan.baidu.com/s/1tFoDlunq_YIjNMni7fgoEQ)| 90.5 [model](https://pan.baidu.com/s/1poqIsZUUZOni0DHmHoIgRg)| 90.6 [model](https://pan.baidu.com/s/1o9aI1MJ9hdnh7FsBWq3R1g)| 90.7 [model](https://pan.baidu.com/s/1o9aI1MJ9hdnh7FsBWq3R1g)|
+|PF-DLDL| 92.3 [model](https://pan.baidu.com/s/1ghprkF4yY--ytjmKb50o-w)| 92.1 [model](https://pan.baidu.com/s/16QumzkyMMYbbXtFBFw5gKA)| 92.5 [model](https://pan.baidu.com/s/1fo2H4zrlVAA6iqQU5WAnWg)| 92.2 [model](https://pan.baidu.com/s/1fo2H4zrlVAA6iqQU5WAnWg)|
+
+MULTI-MODEL ENSEMBLE COMPARISION (IN%) ON VOC2007 AND VOC2012
+
+|DATASET|Traing Style| mAP|
+| :-: | :-: | :-: |
+|VOC2007|[IF-DLDL](https://pan.baidu.com/s/1PSzVpfRGqqNQ_0B9Rqnhnw)| 91.1|
+|VOC2007|[PF-DLDL](https://pan.baidu.com/s/1reUUuTybUdQfy2qsgZi17A)| 93.4|
+|VOC2012|[PF-DLDL](https://pan.baidu.com/s/1BjJNJTiS4POkFdFl7Eqg_g)| 89.9|
+|VOC2012|[PF-DLDL]()| 92.4|
+
 ### Semantic Segmentation
 step1: download [pre-trained model](https://pan.baidu.com/s/1pLUhK9P) to ./DLDLModel
 
 step2: in matlab, run seg-demo.m
 
 <img src="./images/Seg-demo.png" width="512">
+
+| Dataset | Model | MIoU|
+| - | :- | :-:   |
+| VOC2011 | [DLDL-8S](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)          | 64.9|
+| VOC2011 | [DLDL-8S+CRF](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)                                                       | 67.6|
+| VOC2012 | [DLDL-8s](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)          | 64.5|
+| VOC2012 | [DLDL-8S+CRF](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)      | 67.1|
+
 
 ### Additional Information
 If you find DLDL helpful, please cite it as
