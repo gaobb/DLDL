@@ -64,11 +64,11 @@ SINGLE MODEL CLASSIFICATION MAP (IN%)ON VOC2007
 
 MULTI-MODEL ENSEMBLE COMPARISION (IN%) ON VOC2007 AND VOC2012
 
-|DATASET|Traing Style| mAP|
+|Dataset|Traing Style| mAP|
 | :-: | :-: | :-: |
 |VOC2007|[IF-DLDL](https://pan.baidu.com/s/1PSzVpfRGqqNQ_0B9Rqnhnw)| 91.1|
 |VOC2007|[PF-DLDL](https://pan.baidu.com/s/1reUUuTybUdQfy2qsgZi17A)| 93.4|
-|VOC2012|[PF-DLDL](https://pan.baidu.com/s/1BjJNJTiS4POkFdFl7Eqg_g)| 89.9|
+|VOC2012|[IF-DLDL](https://pan.baidu.com/s/1BjJNJTiS4POkFdFl7Eqg_g)| 89.9|
 |VOC2012|[PF-DLDL]()| 92.4|
 
 ### Semantic Segmentation
