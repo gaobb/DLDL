@@ -26,8 +26,8 @@ Pre-trained models:
 | - | :- | :-:   |:-: |
 | ChaLearn15 | [DLDL](https://pan.baidu.com/s/1og9A2W2i_t6OcY85gpD4tQ)          | 5.34(exp)| 0.44  |
 | ChaLearn15 | [DLDL+VGG-Face](https://pan.baidu.com/s/110z8uf5w7AKuQtQIzgLX7w) | 3.51(exp)| 0.31  |
-| Morph(1th-fold) | [DLDL](https://pan.baidu.com/s/1ykulLz-5YBja_omKTifl7w)               | 2.51±0.03 (max)| -|
-| Morph(1th-fold) | [DLDL+VGG-Face](https://pan.baidu.com/s/1_RFrfg7dxkvqIN8HxGWGjg)      | 2.42±0.01 (max)| -|
+| Morph | [DLDL](https://pan.baidu.com/s/1-xoBYwHvKMdyWvrhlfnFPA)               | 2.51±0.03 (max)| -|
+| Morph | [DLDL+VGG-Face](https://pan.baidu.com/s/1ofpizhzLtf6mI6Nj468xGQ)      | 2.42±0.01 (max)| -|
 
 
 
@@ -37,6 +37,16 @@ step1: download [pre-trained model](https://pan.baidu.com/s/1jIOSuSA) to ./DLDLM
 step2: in matlab, run pose-demo.m
 
 <img src="./images/pose-demo.png" width="512">
+
+Pre-trained models:
+
+| Dataset | Model |Pitch| Yaw| Pitch+Yaw| Pitch|  Yaw| Pitch+Yaw|
+| - | :- |:-:|:-:|:-:|:-:|:-:|:-:|
+| Pointing’04 | [DLDL](https://pan.baidu.com/s/1GWn6JLf5mws-aCDyYxBKaw)         |1.69±0.32|3.16±0.07|4.64±0.24|91.65±1.13|79.57±0.57|73.15±0.72|
+| BJUT-3D |     [DLDL](https://pan.baidu.com/s/10-snJszzFvmqhbowDvHrGw) |0.02±0.01|0.07±0.01|0.09±0.01|99.81±0.04|99.27±0.08|99.09±0.09|
+| AFLW |        [DLDL](https://pan.baidu.com/s/1m7XFUTSyUmATeL9WAXSsQQ)               |5.75|6.60|9.78|95.41|92.89|89.27|
+
+
 
 ### Multi-label Classification
 step1: download [pre-trained model](https://pan.baidu.com/s/1kV69uxL) to ./DLDLModel
