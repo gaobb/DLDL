@@ -55,14 +55,14 @@ step2: in matlab, run ml-demo.m
 
 <img src="./images/ml-demo.png" width="512">
 
-SINGLE MODEL CLASSIFICATION MAP (IN%)ON VOC2007
+Single-model classification resluts (mAP in %) on VOC2007
 
 |Training Style| Net-D+Max| Net-D+Avg| Net-E+Max| Net-E+Avg|
 | :-: | :-: |:-:|:-:|:-:|
 |IF-DLDL| 90.1 [model](https://pan.baidu.com/s/1tFoDlunq_YIjNMni7fgoEQ)| 90.5 [model](https://pan.baidu.com/s/1poqIsZUUZOni0DHmHoIgRg)| 90.6 [model](https://pan.baidu.com/s/1o9aI1MJ9hdnh7FsBWq3R1g)| 90.7 [model](https://pan.baidu.com/s/1o9aI1MJ9hdnh7FsBWq3R1g)|
 |PF-DLDL| 92.3 [model](https://pan.baidu.com/s/1ghprkF4yY--ytjmKb50o-w)| 92.1 [model](https://pan.baidu.com/s/16QumzkyMMYbbXtFBFw5gKA)| 92.5 [model](https://pan.baidu.com/s/1fo2H4zrlVAA6iqQU5WAnWg)| 92.2 [model](https://pan.baidu.com/s/1fo2H4zrlVAA6iqQU5WAnWg)|
 
-MULTI-MODEL ENSEMBLE COMPARISION (IN%) ON VOC2007 AND VOC2012
+Multi-model ensemble results (mAP in %) on VOC2007 and VOC2012
 
 |Dataset|Training Style| mAP|
 | :-: | :-: | :-: |
