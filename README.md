@@ -80,10 +80,10 @@ step2: in matlab, run seg-demo.m
 
 | Dataset | Model | MIoU|
 | - | :- | :-:   |
-| VOC2011 | [DLDL-8S](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)          | 64.9|
-| VOC2011 | [DLDL-8S+CRF](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)                                                       | 67.6|
+| VOC2011 | [DLDL-8s](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)          | 64.9|
+| VOC2011 | [DLDL-8s](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)+CRF                                                       | 67.6|
 | VOC2012 | [DLDL-8s](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)          | 64.5|
-| VOC2012 | [DLDL-8S+CRF](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)      | 67.1|
+| VOC2012 | [DLDL-8S](https://pan.baidu.com/s/1BkEcyii1SSdvkH-2FY4xUw)+CRF      | 67.1|
 
 
 ### Additional Information
