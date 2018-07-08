@@ -18,7 +18,7 @@ step1: download [pre-trained model](https://pan.baidu.com/s/1eSKWELO) to ./DLDLM
 
 step2: in matlab, run age-demo.m
 
-<img src="./images/age-demo.png" width="512">
+<img src="./Images/age-demo.png" width="512">
 
 Pre-trained models:
 
@@ -36,7 +36,7 @@ step1: download [pre-trained model](https://pan.baidu.com/s/1jIOSuSA) to ./DLDLM
 
 step2: in matlab, run pose-demo.m
 
-<img src="./images/pose-demo.png" width="512">
+<img src="./Images/pose-demo.png" width="512">
 
 Pre-trained models:
 
@@ -53,7 +53,7 @@ step1: download [pre-trained model](https://pan.baidu.com/s/1kV69uxL) to ./DLDLM
 
 step2: in matlab, run ml-demo.m
 
-<img src="./images/ml-demo.png" width="512">
+<img src="./Images/ml-demo.png" width="512">
 
 Single-model classification resluts (mAP in %) on VOC2007
 
@@ -76,7 +76,7 @@ step1: download [pre-trained model](https://pan.baidu.com/s/1pLUhK9P) to ./DLDLM
 
 step2: in matlab, run seg-demo.m
 
-<img src="./images/Seg-demo.png" width="512">
+<img src="./Images/Seg-demo.png" width="512">
 
 | Dataset | Model | MIoU|
 | - | :- | :-:   |
