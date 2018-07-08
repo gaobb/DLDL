@@ -1,7 +1,7 @@
 %% Deep Label Distribution Learning for Multi-label Classification
 % add the MatConvNet toolbox to MATLAB path
-run(fullfile(fileparts(mfilename('fullpath')),...
-  './External/matconvnet-1.0-beta18', 'matlab', 'vl_setupnn.m')) ;
+% run(fullfile(fileparts(mfilename('fullpath')),...
+%   './External/matconvnet-1.0-beta18', 'matlab', 'vl_setupnn.m')) ;
 addpath('./External/edges'); 
 addpath(genpath('./External/Piotr-CV'));
 addpath(genpath('./External/Ncut_9'));
@@ -16,7 +16,7 @@ model.opts.nThreads=4;
 edge_model = model;
 
 % load PFDLDL model
-modelPath = sprintf('./DLDLModel/pfdldl_%s_%s_%s', 'vgg16','max','voc07');
+modelPath = sprintf('./DLDLModels/pfdldl_%s_%s_%s.mat', 'vgg16','max','voc07');
 fprintf('load model from %s\n', modelPath);
 tic;
 load(modelPath, 'net', 'info');
@@ -38,7 +38,7 @@ rgbmean = net.meta.normalization.averageImage;
 tic;
 % load image
 img_name = '2007_001311.jpg';
-img_path = fullfile('./data/voc11', img_name);
+img_path = fullfile('./images/voc11', img_name);
 im = imread(img_path);
 
 im_patch = genImgProposal(im, edge_model, rgbmean);

@@ -1,7 +1,7 @@
 %% Deep label distribution learning for semantic segmentation
 addpath('./utils')
-run('./External/matconvnet-1.0-beta18/matlab/vl_setupnn.m');
-opts.modelPath = 'DLDLModel/dldl8s.mat';
+% run('./External/matconvnet-1.0-beta18/matlab/vl_setupnn.m');
+opts.modelPath = 'DLDLModels/dldl8s.mat';
 opts.modelFamily = 'matconvnet' ;
 
 % experiment setup
@@ -52,7 +52,7 @@ net.mode = 'test' ;
 % Test
 % -------------------------------------------------------------------------
 img_name = '2007_001311.jpg';
-img_path = fullfile('./data/voc11', img_name);
+img_path = fullfile('./images/voc11', img_name);
 
 
 % Load an image and gt segmentation
