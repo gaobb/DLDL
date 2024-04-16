@@ -4,7 +4,27 @@ This repository is a MatConvNet re-implementation of ["Deep Label Distribution L
 
 You can train Deep ConvNets from Scratch or a pre-trained model on your datasets with limited samples and ambiguous labels. This repo is created by [Bin-Bin Gao](http://lamda.nju.edu.cn/gaobb).
 
-![Feature visualization](http://lamda.nju.edu.cn/gaobb/Projects/DLDL_files/DLDL_LD.png)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-label-distribution-learning-with-label/head-pose-estimation-on-bjut-3d)](https://paperswithcode.com/sota/head-pose-estimation-on-bjut-3d?p=deep-label-distribution-learning-with-label)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-label-distribution-learning-with-label/semantic-segmentation-on-pascal-voc-2011)](https://paperswithcode.com/sota/semantic-segmentation-on-pascal-voc-2011?p=deep-label-distribution-learning-with-label)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-label-distribution-learning-with-label/semantic-segmentation-on-pascal-voc-2012-1)](https://paperswithcode.com/sota/semantic-segmentation-on-pascal-voc-2012-1?p=deep-label-distribution-learning-with-label)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-label-distribution-learning-with-label/head-pose-estimation-on-pointing-04)](https://paperswithcode.com/sota/head-pose-estimation-on-pointing-04?p=deep-label-distribution-learning-with-label)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-label-distribution-learning-with-label/multi-label-classification-on-pascal-voc-2012)](https://paperswithcode.com/sota/multi-label-classification-on-pascal-voc-2012?p=deep-label-distribution-learning-with-label)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-label-distribution-learning-with-label/age-estimation-on-morph-album2)](https://paperswithcode.com/sota/age-estimation-on-morph-album2?p=deep-label-distribution-learning-with-label)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-label-distribution-learning-with-label/head-pose-estimation-on-aflw)](https://paperswithcode.com/sota/head-pose-estimation-on-aflw?p=deep-label-distribution-learning-with-label)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-label-distribution-learning-with-label/age-estimation-on-chalearn-2015)](https://paperswithcode.com/sota/age-estimation-on-chalearn-2015?p=deep-label-distribution-learning-with-label)
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-label-distribution-learning-with-label/multi-label-classification-on-pascal-voc-2007)](https://paperswithcode.com/sota/multi-label-classification-on-pascal-voc-2007?p=deep-label-distribution-learning-with-label)
+
+
+![Feature visualization](https://csgaobb.github.io//Projects/DLDL_files/DLDL_LD.png)
 
 
 ### Table of Contents
