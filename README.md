@@ -120,6 +120,9 @@ If you find DLDL helpful, please cite it as
          }
 ```
 
-ATTN1: This packages are free for academic usage. You can run them at your own risk. For other
-purposes, please contact Prof. Jianxin Wu (wujx2001@gmail.com).
+ATTN1: This packages are free for academic usage. You can run them at your own risk. For other purposes, please contact Prof. Jianxin Wu (wujx2001@gmail.com).
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=gaobb/DLDL&type=Date)](https://www.star-history.com/#gaobb/DLDL&Date)
